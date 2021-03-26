@@ -1,0 +1,885 @@
+{
+  "dataType": "Map",
+  "value": [
+    [
+      "ESPAGNOL LV2",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "Participation orale",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "EE Carta a mi correspondiente",
+            [
+              "C"
+            ]
+          ],
+          [
+            "participation en classe",
+            [
+              "C"
+            ]
+          ],
+          [
+            "3eme-América",
+            [
+              "C"
+            ]
+          ],
+          [
+            "3e-Blog-de-vacaciones",
+            [
+              "E"
+            ]
+          ],
+          [
+            "3ePassé composé",
+            [
+              "E"
+            ]
+          ],
+          [
+            "3e-Controle bonnes résolutions",
+            [
+              "E",
+              "C"
+            ]
+          ],
+          [
+            "3-Descubrimiento América-biografia",
+            [
+              "Abs",
+              "Abs"
+            ]
+          ],
+          [
+            "3e-Dossier descubrimiento",
+            [
+              "A"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "ED.PHYSIQUE & SPORT.",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "Relais",
+            [
+              "A",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Badminton",
+            [
+              "C",
+              "A+",
+              "A+",
+              "A"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "EDUCATION MUSICALE",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "Travail en groupe sur tablettes",
+            [
+              "A",
+              "A"
+            ]
+          ],
+          [
+            "Blind test 1",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Création Garage Band \"Revesz life\"",
+            [
+              "A"
+            ]
+          ],
+          [
+            "Cahier",
+            [
+              "A"
+            ]
+          ],
+          [
+            "Controle sur City life et Steve Reich",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Blind test n°2",
+            [
+              "A"
+            ]
+          ],
+          [
+            "Blind test n°3",
+            [
+              "A+"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "ARTS PLASTIQUES",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "objet d'art",
+            [
+              "A",
+              "C"
+            ]
+          ],
+          [
+            "Invasion/virus plastique",
+            [
+              "A",
+              "A"
+            ]
+          ],
+          [
+            "dynamisme/mouvement",
+            [
+              "A",
+              "C"
+            ]
+          ],
+          [
+            "J'ai mis du temps...étape 1",
+            [
+              "A"
+            ]
+          ],
+          [
+            "paysage abstrait",
+            [
+              "A",
+              "C"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "ANGLAIS LV1",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "Pairwork \"A Haunted House\"",
+            [
+              "A"
+            ]
+          ],
+          [
+            "Pairwork \"job application\"",
+            [
+              "Abs"
+            ]
+          ],
+          [
+            "Dictée \"A Haunted House\"",
+            [
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Evaluation finale Topic 15",
+            [
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Oral Final \"Life Swap\"",
+            [
+              "A+",
+              "A+",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "Evaluation lexique \"jobs\"",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Mise à jour du FOLIO",
+            [
+              "E"
+            ]
+          ],
+          [
+            "Participation orale 1er trimestre",
+            [
+              "A",
+              "A+"
+            ]
+          ],
+          [
+            "Pairwork \"PE / French teacher\"",
+            [
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "Lecture \"firefighter\"",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Travail de groupe \"The Unicorn\"",
+            [
+              "A",
+              "A+",
+              "A",
+              "A"
+            ]
+          ],
+          [
+            "Verbes irréguliers BASIC + INTERMEDIATE",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Les deux preterits",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Participation orale",
+            [
+              "A"
+            ]
+          ],
+          [
+            "Dictée et Lecture \"Little Red Riding Hood\"",
+            [
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Verbes irréguliers BASIC",
+            [
+              "C"
+            ]
+          ],
+          [
+            "Dialogue \"Little Red Riding Hood\"",
+            [
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Les nombres",
+            [
+              "A+",
+              "A+"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "FRANCAIS",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "lecture cursive",
+            [
+              "A",
+              "A"
+            ]
+          ],
+          [
+            "écriture texte satirique",
+            [
+              "A"
+            ]
+          ],
+          [
+            "autodictée",
+            [
+              "E"
+            ]
+          ],
+          [
+            "réécriture",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "dictée préparée",
+            [
+              "Abs"
+            ]
+          ],
+          [
+            "évaluation lecture cursive",
+            [
+              "A"
+            ]
+          ],
+          [
+            "rédaction",
+            [
+              "A"
+            ]
+          ],
+          [
+            "questions de cours",
+            [
+              "A"
+            ]
+          ],
+          [
+            "dictée",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "lettre officielle stage",
+            [
+              "A"
+            ]
+          ],
+          [
+            "exercice d'écriture",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Lecture cursive \"La mort du roi Tsongor\"",
+            [
+              "A+",
+              "C"
+            ]
+          ],
+          [
+            "récitation poème \"Barbara\"",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "recueil poèmes",
+            [
+              "A",
+              "A",
+              "C"
+            ]
+          ],
+          [
+            "dictée préparée (Baudelaire)",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "lecture cursive \"Une poignée d'étoiles\"",
+            [
+              "A"
+            ]
+          ],
+          [
+            "récitation expressive poème Baudelaire",
+            [
+              "A"
+            ]
+          ],
+          [
+            "Devoir type brevet : dictée",
+            [
+              "A"
+            ]
+          ],
+          [
+            "Devoir type brevet : compréhension et grammaire",
+            [
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "brevet blanc",
+            [
+              "C",
+              "A",
+              "A+",
+              "E",
+              "A",
+              "A+"
+            ]
+          ],
+          [
+            "Pamphlet",
+            [
+              "A",
+              "A",
+              "C"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "HISTOIRE-GEOGRAPHIE",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "commentaire en emc",
+            [
+              "A",
+              "A+",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "travail de groupe géo",
+            [
+              "A+",
+              "A",
+              "A+",
+              "C",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "evaluation 1°GM",
+            [
+              "C",
+              "A",
+              "C",
+              "A",
+              "A+",
+              "C",
+              "A+"
+            ]
+          ],
+          [
+            "commentaire de docs hist 1GM",
+            [
+              "A",
+              "A+",
+              "A",
+              "A",
+              "A",
+              "A"
+            ]
+          ],
+          [
+            "oral",
+            [
+              "A+",
+              "Ne",
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "initiative",
+            [
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Evaluation entre 2 guerre, espaces productifs et 2GM",
+            [
+              "C",
+              "C",
+              "A",
+              "E",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "travail de groupe sur l'onu",
+            [
+              "A",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "projet femmes",
+            [
+              "A+",
+              "C",
+              "A+",
+              "Ne",
+              "C"
+            ]
+          ],
+          [
+            "initiatives",
+            [
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "évaluation notions hist, géo et EMC",
+            [
+              "A",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "evaluation dnb blanc",
+            [
+              "A",
+              "A+",
+              "A+",
+              "A",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Initiatives",
+            [
+              "A"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "MATHEMATIQUES",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "contrôle n°3",
+            [
+              "A",
+              "A",
+              "C",
+              "A",
+              "A",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Contrôle n°2",
+            [
+              "A",
+              "A+",
+              "A+",
+              "A+",
+              "A+",
+              "A",
+              "A+"
+            ]
+          ],
+          [
+            "Contrôle n°1",
+            [
+              "A+",
+              "A+",
+              "A",
+              "A+",
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Devoir maison",
+            [
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Contrôle n°5",
+            [
+              "Abs",
+              "Abs",
+              "Abs",
+              "Abs",
+              "Abs"
+            ]
+          ],
+          [
+            "Contrôle n°4",
+            [
+              "A",
+              "A",
+              "E",
+              "A",
+              "A"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "PHYSIQUE-CHIMIE",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "Bilan du mois de novembre",
+            [
+              "A+",
+              "A",
+              "A+",
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Bilan du mois d'octobre",
+            [
+              "A+",
+              "A",
+              "A+",
+              "A+",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "Bilan du mois de septembre",
+            [
+              "A+",
+              "A",
+              "A+",
+              "A+",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "ECE mesures de masse et de poids",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Bilan du mois de février",
+            [
+              "A+",
+              "A",
+              "A",
+              "A+",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "Bilan du mois de janvier",
+            [
+              "A+",
+              "A",
+              "A",
+              "A+",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "Bilan du mois de décembre",
+            [
+              "A+",
+              "A",
+              "A+",
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "SCIENCES VIE & TERRE",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "Les allèles",
+            [
+              "A+",
+              "A",
+              "A+"
+            ]
+          ],
+          [
+            "TP ADN",
+            [
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "Diversité",
+            [
+              "A",
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "Observation microscopique et dessin",
+            [
+              "A",
+              "C"
+            ]
+          ],
+          [
+            "Immunité",
+            [
+              "A+",
+              "A",
+              "A",
+              "C"
+            ]
+          ],
+          [
+            "TP cellule du sang",
+            [
+              "A+",
+              "C",
+              "C",
+              "C"
+            ]
+          ],
+          [
+            "Microbes",
+            [
+              "A+",
+              "A+",
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Transmission des allèles",
+            [
+              "A+",
+              "A+",
+              "A"
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      "TECHNOLOGIE",
+      {
+        "dataType": "Map",
+        "value": [
+          [
+            "Sujet blanc : Pousse seringue",
+            [
+              "A+",
+              "A+",
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Sujet Blanc : Robot philae",
+            [
+              "A+",
+              "C",
+              "A",
+              "A"
+            ]
+          ],
+          [
+            "Cdc - robot explorateur",
+            [
+              "A+",
+              "A"
+            ]
+          ],
+          [
+            "Entreprise",
+            [
+              "A+"
+            ]
+          ],
+          [
+            "Simulation d'un réseau informatique - Filius",
+            [
+              "A+",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "Projet - Doc de travail",
+            [
+              "A+",
+              "A+",
+              "C",
+              "A+",
+              "A+"
+            ]
+          ],
+          [
+            "DM n°2",
+            [
+              "A",
+              "A"
+            ]
+          ]
+        ]
+      }
+    ]
+  ]
+}

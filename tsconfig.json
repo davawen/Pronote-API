@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"allowJs": false,
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"target": "ES5"
+	}
+}
