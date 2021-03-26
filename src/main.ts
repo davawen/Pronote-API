@@ -38,16 +38,16 @@ async function main()
 	const url = "https://0261030d.index-education.net/pronote";
 	
 	io.write("Username");
-	
 	let username = await io.read();
 	
 	io.write("Password");
-	
 	let password = await io.read();
 	
 	let session = await pronote.login(url, username, password);
 	
 	let map: Map<string, Map<string, evaluation[]>> = new Map();
+	
+	let moyenne = { 'A+': 0, 'A': 0, 'C': 0, 'E': 0, 'Abs': 0, 'Ne': 0, 'Total': 0};
 	
 	for(let i = 0; i < 3; i++)
 	{
@@ -73,6 +73,9 @@ async function main()
 									short: l.value.short as evaluationShort,
 									long: l.value.long as evaluationLong
 								});
+								
+								moyenne[l.value.short]++;
+								if(l.value.short != 'Abs' && l.value.short != 'Ne') moyenne['Total']++;
 							}
 						);
 						
@@ -104,11 +107,11 @@ async function main()
 	
 	console.log(str);
 	
+	console.log(`Moyenne:\n  ${JSON.stringify(moyenne, null, 2)}\n\nMoyenne Générale: ${(moyenne['A+']*4+moyenne['A']*3+moyenne['C']*2+moyenne['E'])/moyenne['Total'] * 5}`);
+	
 	io.write(session.user.name);
 	// console.log(map);
 	// fs.writeFileSync("./file.json", JSON.stringify(map, replacer, 2));
-	
-	// console.log((await (await session.marks(pronote.toPronoteDate( new Date('2020-10-03') ))).averages));
 }
 
 main().catch(
@@ -118,3 +121,4 @@ main().catch(
 		else console.log(err);
 	}
 );
+
