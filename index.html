@@ -9,17 +9,17 @@
 		function drawChart()
 		{
 			var data = google.visualization.arrayToDataTable([
-				['Year', 'Sales', 'Expenses'],
-				['2013', 1000, 400],
-				['2014', 1170, 460],
-				['2015', 660, 1120],
-				['2016', 1030, 540]
+				['Mois', 'Moyenne', 'Français', 'Anglais'],
+				['07/2020', 17.5, 14, 19],
+				['08/2020', 16, 14, 19],
+				['09/2020', 17, 14, 19],
+				['10/2020', 16.5, 14, 19]
 			]);
 
 			var options = {
-				title: 'Company Performance',
-				hAxis: { title: 'Year', titleTextStyle: { color: '#333' } },
-				vAxis: { minValue: 0 }
+				title: 'Moyenne',
+				hAxis: { title: 'Mois', titleTextStyle: { color: '#333' } },
+				vAxis: { minValue: 0, maxValue: 20 }
 			};
 
 			var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));

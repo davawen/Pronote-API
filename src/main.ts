@@ -4,9 +4,76 @@ import * as pronote from 'pronote-api';
 
 import * as fs from 'fs';
 
-type evaluationShort = 'A+' | 'A' | 'C' | 'E' | 'Abs';
+// type Skill = 'FRANCAIS' | 'ESPAGNOL LV2' | 'ANGLAIS LV1' | 'EDUCATION MUSICALE' | 'HISTOIRE-GEOGRAPHIE' | 'MATHEMATIQUES' | 'SCIENCES VIE & TERRE' | 'PHYSIQUE-CHIMIE' | 'TECHNOLOGIE' | 'ED.PHYSIQUE & SPORT.' | 'ARTS PLASTIQUES' | 'LATIN';
+type evaluationShort = 'A+' | 'A' | 'C' | 'E' | 'Abs' | 'Ne';
 type evaluationLong = 'Très bonne maîtrise' | 'Maîtrise satisfaisante' | "Maîtrise fragile" | 'Maîtrise insuffisante' | 'Absent';
-type evaluation = {short: evaluationShort, long: evaluationLong};
+
+class Evaluation
+{
+	name: string;
+	coef: number;
+	date: Date;
+	levels:
+	{
+		short: evaluationShort,
+		long: evaluationLong,
+		name: string
+	}[]
+	
+	constructor(name: string, coef: number, date: Date)
+	{
+		this.name = name;
+		this.coef = coef;
+		this.date = date;
+		
+		this.levels = [];
+	}
+}
+
+class Moyenne
+{
+	name: string;
+	total: number;
+	value: number;
+	'A+': number;
+	'A': number;
+	'C': number;
+	'E': number;
+	'Abs': number;
+	'Ne': number;
+	
+	constructor(name: string)
+	{
+		this.name = name;
+		
+		this.total = 0;
+		this.value = 0;
+		
+		this['A+'] = 0;
+		this['A'] = 0;
+		this['C'] = 0;
+		this['E'] = 0;
+		this['Abs'] = 0;
+		this['Ne'] = 0;
+	}
+	
+	increment(value: evaluationShort, coef: number)
+	{
+		if(value == 'Abs' || value == 'Ne') this[value]++;
+		else
+		{
+			this[value] += coef;
+			this.total += coef;
+		}
+	}
+	
+	calculate()
+	{
+		this.value = (this['A+']*4 + this['A']*3 + this['C']*2 + this['E'])/this.total * 5;
+		
+		return this.value;
+	}
+}
 
 function getColor(mark: evaluationShort): string
 {
@@ -24,6 +91,7 @@ function getColor(mark: evaluationShort): string
 		case 'E':
 			return '\u001b[31m';
 			break;
+		case 'Ne':
 		case 'Abs':
 			return '\u001b[0m';
 			break;
@@ -45,73 +113,169 @@ async function main()
 	
 	let session = await pronote.login(url, username, password);
 	
-	let map: Map<string, Map<string, evaluation[]>> = new Map();
-	
-	let moyenne = { 'A+': 0, 'A': 0, 'C': 0, 'E': 0, 'Abs': 0, 'Ne': 0, 'Total': 0};
+	let map: Map<string, Evaluation[]> = new Map();
 	
 	for(let i = 0; i < 3; i++)
 	{
-		const evaluations = await session.evaluations(`Trimestre ${i+1}`);
+		const skills = await session.evaluations(`Trimestre ${i+1}`);
 		
-		evaluations.forEach(
-			e =>
+		skills.forEach(
+			area =>
 			{
-				let _m: Map<string, evaluation[]>;
+				let evaluations: Evaluation[];
 				
-				if(map.has(e.name)) _m = map.get(e.name);
-				else _m = new Map();
+				if(map.has(area.name)) evaluations = map.get(area.name);
+				else evaluations = [];
 				
-				e.evaluations.forEach(
-					_e =>
+				area.evaluations.forEach(
+					e =>
 					{
-						let levels: evaluation[] = [];
+						let level = new Evaluation(e.name, e.coefficient, e.date);
 						
-						_e.levels.forEach(
+						e.levels.forEach(
 							l =>
 							{
-								levels.push({
-									short: l.value.short as evaluationShort,
-									long: l.value.long as evaluationLong
-								});
-								
-								moyenne[l.value.short]++;
-								if(l.value.short != 'Abs' && l.value.short != 'Ne') moyenne['Total']++;
+								level.levels.push(
+									{
+										name: l.name,
+										short: l.value.short as evaluationShort,
+										long: l.value.long as evaluationLong
+									}
+								);
 							}
 						);
 						
-						_m.set(_e.name, levels);
+						// _e.levels.forEach(
+						// 	l =>
+						// 	{
+						// 		levels.push({
+						// 			short: l.value.short as evaluationShort,
+						// 			long: l.value.long as evaluationLong
+						// 		});
+								
+						// 		moyenne[l.value.short]++;
+						// 		if(l.value.short != 'Abs' && l.value.short != 'Ne') moyenne['Total']++;
+						// 	}
+						// );
+						
+						evaluations.push(level);
 					}	
 				);
 				
-				map.set(e.name, _m);
+				map.set(area.name, evaluations);
 			}
 		);
 	}
 	
-	let str = "";
+	console.log(map);
+	
+	let moyenne: Map<string, Map<string, Moyenne>> = new Map();
 	
 	map.forEach(
-		(_m, key) => 
+		(area, key) =>
 		{
-			str += `${key}: \n`;
+			let m: Map<string, Moyenne> = new Map();
 			
-			_m.forEach(
-				(evalNote, evalName) =>
+			let areaM = new Moyenne(key);
+			
+			area.forEach(
+				e =>
 				{
-					str += `  ${evalName}: \n`;
-					evalNote.forEach(n => str += `   - ${getColor(n.short)}${n.long}\u001b[0m\n`)
+					var _date = `${e.date.getMonth()}/${e.date.getFullYear()}`;
+					
+					let _m: Moyenne;
+					
+					if(m.has(_date)) _m = m.get(_date);
+					else _m = new Moyenne(key);
+					
+					e.levels.forEach(
+						l =>
+						{
+							_m.increment(l.short, e.coef);
+							areaM.increment(l.short, e.coef);
+						}
+					);
+					
+					_m.calculate();
+					
+					m.set(_date, _m);
 				}
-			)
+			);
+			
+			areaM.calculate();
+			
+			m.set('$All', areaM);
+			
+			moyenne.set(key, m);
 		}
 	);
 	
-	console.log(str);
+	console.log(moyenne);
 	
-	console.log(`Moyenne:\n  ${JSON.stringify(moyenne, null, 2)}\n\nMoyenne Générale: ${(moyenne['A+']*4+moyenne['A']*3+moyenne['C']*2+moyenne['E'])/moyenne['Total'] * 5}`);
+	// let moyenne = { 'A+': 0, 'A': 0, 'C': 0, 'E': 0, 'Abs': 0, 'Ne': 0, 'Total': 0 };
+
+	// map.forEach(
+	// 	(_m, key) => 
+	// 	{
+	// 		str += `${key}: \n`;
+			
+	// 		_m.forEach(
+	// 			(evalNote, evalName) =>
+	// 			{
+	// 				str += `  ${evalName}: \n`;
+	// 				evalNote.forEach(n => str += `   - ${getColor(n.short)}${n.long}\u001b[0m\n`)
+	// 			}
+	// 		)
+	// 	}
+	// );
+	
+	fs.writeFileSync("./index.html",
+		`<html>
+
+<head>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript">
+		google.charts.load('current', { 'packages': ['corechart'] });
+		google.charts.setOnLoadCallback(drawChart);
+
+		function drawChart()
+		{
+			var data = google.visualization.arrayToDataTable([
+				['Mois', 'Moyenne', 'Français', 'Anglais'],
+				['07/2020', 17.5, 14, 19],
+				['08/2020', 16, 14, 19],
+				['09/2020', 17, 14, 19],
+				['10/2020', 16.5, 14, 19]
+			]);
+
+			var options = {
+				title: 'Moyenne',
+				hAxis: { title: 'Mois', titleTextStyle: { color: '#333' } },
+				vAxis: { minValue: 0, maxValue: 20 }
+			};
+
+			var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+			chart.draw(data, options);
+		}
+	</script>
+</head>
+
+<body>
+	<div id="chart_div" style="width: 100%; height: 500px;"></div>
+</body>
+
+</html>`
+	);
+	
+	// let start = (process.platform == 'darwin' ? 'open' : process.platform == 'win32' ? 'start' : 'xdg-open');
+	// require('child_process').exec(start + ' ' + __dirname + '');
+	
+	
+	
+	// console.log(`Moyenne:\n  ${JSON.stringify(moyenne, null, 2)}\n\nMoyenne Générale: ${(moyenne['A+']*4+moyenne['A']*3+moyenne['C']*2+moyenne['E'])/moyenne['Total'] * 5}`);
 	
 	io.write(session.user.name);
 	// console.log(map);
-	// fs.writeFileSync("./file.json", JSON.stringify(map, replacer, 2));
 }
 
 main().catch(

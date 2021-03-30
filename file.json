@@ -1,885 +1,650 @@
-{
-  "dataType": "Map",
-  "value": [
-    [
-      "ESPAGNOL LV2",
+[
+  {
+    "name": "EDUCATION MUSICALE",
+    "teacher": "Mme VEDRENNE A.",
+    "color": "#EC6719",
+    "evaluations": [
       {
-        "dataType": "Map",
-        "value": [
-          [
-            "Participation orale",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "EE Carta a mi correspondiente",
-            [
-              "C"
-            ]
-          ],
-          [
-            "participation en classe",
-            [
-              "C"
-            ]
-          ],
-          [
-            "3eme-América",
-            [
-              "C"
-            ]
-          ],
-          [
-            "3e-Blog-de-vacaciones",
-            [
-              "E"
-            ]
-          ],
-          [
-            "3ePassé composé",
-            [
-              "E"
-            ]
-          ],
-          [
-            "3e-Controle bonnes résolutions",
-            [
-              "E",
-              "C"
-            ]
-          ],
-          [
-            "3-Descubrimiento América-biografia",
-            [
-              "Abs",
-              "Abs"
-            ]
-          ],
-          [
-            "3e-Dossier descubrimiento",
-            [
-              "A"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "ED.PHYSIQUE & SPORT.",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "Relais",
-            [
-              "A",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Badminton",
-            [
-              "C",
-              "A+",
-              "A+",
-              "A"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "EDUCATION MUSICALE",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "Travail en groupe sur tablettes",
-            [
-              "A",
-              "A"
-            ]
-          ],
-          [
-            "Blind test 1",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Création Garage Band \"Revesz life\"",
-            [
-              "A"
-            ]
-          ],
-          [
-            "Cahier",
-            [
-              "A"
-            ]
-          ],
-          [
-            "Controle sur City life et Steve Reich",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Blind test n°2",
-            [
-              "A"
-            ]
-          ],
-          [
-            "Blind test n°3",
-            [
-              "A+"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "ARTS PLASTIQUES",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "objet d'art",
-            [
-              "A",
-              "C"
-            ]
-          ],
-          [
-            "Invasion/virus plastique",
-            [
-              "A",
-              "A"
-            ]
-          ],
-          [
-            "dynamisme/mouvement",
-            [
-              "A",
-              "C"
-            ]
-          ],
-          [
-            "J'ai mis du temps...étape 1",
-            [
-              "A"
-            ]
-          ],
-          [
-            "paysage abstrait",
-            [
-              "A",
-              "C"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "ANGLAIS LV1",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "Pairwork \"A Haunted House\"",
-            [
-              "A"
-            ]
-          ],
-          [
-            "Pairwork \"job application\"",
-            [
-              "Abs"
-            ]
-          ],
-          [
-            "Dictée \"A Haunted House\"",
-            [
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Evaluation finale Topic 15",
-            [
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Oral Final \"Life Swap\"",
-            [
-              "A+",
-              "A+",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "Evaluation lexique \"jobs\"",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Mise à jour du FOLIO",
-            [
-              "E"
-            ]
-          ],
-          [
-            "Participation orale 1er trimestre",
-            [
-              "A",
-              "A+"
-            ]
-          ],
-          [
-            "Pairwork \"PE / French teacher\"",
-            [
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "Lecture \"firefighter\"",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Travail de groupe \"The Unicorn\"",
-            [
-              "A",
-              "A+",
-              "A",
-              "A"
-            ]
-          ],
-          [
-            "Verbes irréguliers BASIC + INTERMEDIATE",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Les deux preterits",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Participation orale",
-            [
-              "A"
-            ]
-          ],
-          [
-            "Dictée et Lecture \"Little Red Riding Hood\"",
-            [
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Verbes irréguliers BASIC",
-            [
-              "C"
-            ]
-          ],
-          [
-            "Dialogue \"Little Red Riding Hood\"",
-            [
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Les nombres",
-            [
-              "A+",
-              "A+"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "FRANCAIS",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "lecture cursive",
-            [
-              "A",
-              "A"
-            ]
-          ],
-          [
-            "écriture texte satirique",
-            [
-              "A"
-            ]
-          ],
-          [
-            "autodictée",
-            [
-              "E"
-            ]
-          ],
-          [
-            "réécriture",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "dictée préparée",
-            [
-              "Abs"
-            ]
-          ],
-          [
-            "évaluation lecture cursive",
-            [
-              "A"
-            ]
-          ],
-          [
-            "rédaction",
-            [
-              "A"
-            ]
-          ],
-          [
-            "questions de cours",
-            [
-              "A"
-            ]
-          ],
-          [
-            "dictée",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "lettre officielle stage",
-            [
-              "A"
-            ]
-          ],
-          [
-            "exercice d'écriture",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Lecture cursive \"La mort du roi Tsongor\"",
-            [
-              "A+",
-              "C"
-            ]
-          ],
-          [
-            "récitation poème \"Barbara\"",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "recueil poèmes",
-            [
-              "A",
-              "A",
-              "C"
-            ]
-          ],
-          [
-            "dictée préparée (Baudelaire)",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "lecture cursive \"Une poignée d'étoiles\"",
-            [
-              "A"
-            ]
-          ],
-          [
-            "récitation expressive poème Baudelaire",
-            [
-              "A"
-            ]
-          ],
-          [
-            "Devoir type brevet : dictée",
-            [
-              "A"
-            ]
-          ],
-          [
-            "Devoir type brevet : compréhension et grammaire",
-            [
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "brevet blanc",
-            [
-              "C",
-              "A",
-              "A+",
-              "E",
-              "A",
-              "A+"
-            ]
-          ],
-          [
-            "Pamphlet",
-            [
-              "A",
-              "A",
-              "C"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "HISTOIRE-GEOGRAPHIE",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "commentaire en emc",
-            [
-              "A",
-              "A+",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "travail de groupe géo",
-            [
-              "A+",
-              "A",
-              "A+",
-              "C",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "evaluation 1°GM",
-            [
-              "C",
-              "A",
-              "C",
-              "A",
-              "A+",
-              "C",
-              "A+"
-            ]
-          ],
-          [
-            "commentaire de docs hist 1GM",
-            [
-              "A",
-              "A+",
-              "A",
-              "A",
-              "A",
-              "A"
-            ]
-          ],
-          [
-            "oral",
-            [
-              "A+",
-              "Ne",
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "initiative",
-            [
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Evaluation entre 2 guerre, espaces productifs et 2GM",
-            [
-              "C",
-              "C",
-              "A",
-              "E",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "travail de groupe sur l'onu",
-            [
-              "A",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "projet femmes",
-            [
-              "A+",
-              "C",
-              "A+",
-              "Ne",
-              "C"
-            ]
-          ],
-          [
-            "initiatives",
-            [
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "évaluation notions hist, géo et EMC",
-            [
-              "A",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "evaluation dnb blanc",
-            [
-              "A",
-              "A+",
-              "A+",
-              "A",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Initiatives",
-            [
-              "A"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "MATHEMATIQUES",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "contrôle n°3",
-            [
-              "A",
-              "A",
-              "C",
-              "A",
-              "A",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Contrôle n°2",
-            [
-              "A",
-              "A+",
-              "A+",
-              "A+",
-              "A+",
-              "A",
-              "A+"
-            ]
-          ],
-          [
-            "Contrôle n°1",
-            [
-              "A+",
-              "A+",
-              "A",
-              "A+",
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Devoir maison",
-            [
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Contrôle n°5",
-            [
-              "Abs",
-              "Abs",
-              "Abs",
-              "Abs",
-              "Abs"
-            ]
-          ],
-          [
-            "Contrôle n°4",
-            [
-              "A",
-              "A",
-              "E",
-              "A",
-              "A"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "PHYSIQUE-CHIMIE",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "Bilan du mois de novembre",
-            [
-              "A+",
-              "A",
-              "A+",
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Bilan du mois d'octobre",
-            [
-              "A+",
-              "A",
-              "A+",
-              "A+",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "Bilan du mois de septembre",
-            [
-              "A+",
-              "A",
-              "A+",
-              "A+",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "ECE mesures de masse et de poids",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Bilan du mois de février",
-            [
-              "A+",
-              "A",
-              "A",
-              "A+",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "Bilan du mois de janvier",
-            [
-              "A+",
-              "A",
-              "A",
-              "A+",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "Bilan du mois de décembre",
-            [
-              "A+",
-              "A",
-              "A+",
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "SCIENCES VIE & TERRE",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "Les allèles",
-            [
-              "A+",
-              "A",
-              "A+"
-            ]
-          ],
-          [
-            "TP ADN",
-            [
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "Diversité",
-            [
-              "A",
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "Observation microscopique et dessin",
-            [
-              "A",
-              "C"
-            ]
-          ],
-          [
-            "Immunité",
-            [
-              "A+",
-              "A",
-              "A",
-              "C"
-            ]
-          ],
-          [
-            "TP cellule du sang",
-            [
-              "A+",
-              "C",
-              "C",
-              "C"
-            ]
-          ],
-          [
-            "Microbes",
-            [
-              "A+",
-              "A+",
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Transmission des allèles",
-            [
-              "A+",
-              "A+",
-              "A"
-            ]
-          ]
-        ]
-      }
-    ],
-    [
-      "TECHNOLOGIE",
-      {
-        "dataType": "Map",
-        "value": [
-          [
-            "Sujet blanc : Pousse seringue",
-            [
-              "A+",
-              "A+",
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Sujet Blanc : Robot philae",
-            [
-              "A+",
-              "C",
-              "A",
-              "A"
-            ]
-          ],
-          [
-            "Cdc - robot explorateur",
-            [
-              "A+",
-              "A"
-            ]
-          ],
-          [
-            "Entreprise",
-            [
-              "A+"
-            ]
-          ],
-          [
-            "Simulation d'un réseau informatique - Filius",
-            [
-              "A+",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "Projet - Doc de travail",
-            [
-              "A+",
-              "A+",
-              "C",
-              "A+",
-              "A+"
-            ]
-          ],
-          [
-            "DM n°2",
-            [
-              "A",
-              "A"
-            ]
-          ]
+        "id": "43fef09925bd9672",
+        "name": "Blind test n°3",
+        "date": "2021-02-01T23:00:00.000Z",
+        "coefficient": 1,
+        "levels": [
+          {
+            "name": "Situer et comparer des musiques de styles proches ou éloignés dans l’espace et/ou dans le temps pour construire des repères techniques et culturels.",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.4",
+              "D3",
+              "D5"
+            ]
+          }
         ]
       }
     ]
-  ]
-}
+  },
+  {
+    "name": "ANGLAIS LV1",
+    "teacher": "M. LORA-RONCO H.",
+    "color": "#FFED00",
+    "evaluations": [
+      {
+        "id": "56588a2c04d660dc",
+        "name": "Les nombres",
+        "date": "2021-03-03T23:00:00.000Z",
+        "coefficient": 3,
+        "levels": [
+          {
+            "name": "312. Je sais utiliser les nombres",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.2"
+            ]
+          },
+          {
+            "name": "312. Je sais utiliser les nombres",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ESPAGNOL LV2",
+    "teacher": "Mme GRACIA M.",
+    "color": "#FFED00",
+    "evaluations": [
+      {
+        "id": "4fef7b03588188b2",
+        "name": "3-Descubrimiento América-biografia",
+        "date": "2021-03-17T23:00:00.000Z",
+        "coefficient": 1,
+        "levels": [
+          {
+            "name": "314. Je m'approprie des structures grammaticales.",
+            "value": {
+              "short": "Abs",
+              "long": "Absent"
+            },
+            "prefixes": [
+              "D1.2"
+            ]
+          },
+          {
+            "name": "322. j'acquiers des éléments historiques et géographiques sur la langue étudiée.",
+            "value": {
+              "short": "Abs",
+              "long": "Absent"
+            },
+            "prefixes": [
+              "D1.2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d41e09d7274591c4",
+        "name": "3e-Dossier descubrimiento",
+        "date": "2021-03-14T23:00:00.000Z",
+        "coefficient": 1,
+        "levels": [
+          {
+            "name": "4.22 Je suis efficace en travail de groupe.",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FRANCAIS",
+    "teacher": "Mme FOREST N.",
+    "color": "#C93E69",
+    "evaluations": [
+      {
+        "id": "72d940dfe0f78b20",
+        "name": "brevet blanc",
+        "date": "2021-03-22T23:00:00.000Z",
+        "coefficient": 3,
+        "levels": [
+          {
+            "name": "Lire des textes non littéraires, des images et des documents composites (y compris numériques).",
+            "value": {
+              "short": "C",
+              "long": "Maîtrise fragile"
+            },
+            "prefixes": [
+              "D1.1",
+              "D5"
+            ]
+          },
+          {
+            "name": "Élaborer une interprétation de textes littéraires.",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.1",
+              "D5"
+            ]
+          },
+          {
+            "name": "Adopter des stratégies et des procédures d’écriture efficaces.",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1"
+            ]
+          },
+          {
+            "name": "Connaitre les aspects fondamentaux du fonctionnement syntaxique.",
+            "value": {
+              "short": "E",
+              "long": "Maîtrise insuffisante"
+            },
+            "prefixes": [
+              "D1.1",
+              "D2"
+            ]
+          },
+          {
+            "name": "Maitriser le fonctionnement du verbe et son orthographe.",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.1",
+              "D2"
+            ]
+          },
+          {
+            "name": "Maitriser la structure, le sens et l’orthographe des mots.",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1",
+              "D2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "48c1a029975e7f75",
+        "name": "Pamphlet",
+        "date": "2021-03-22T23:00:00.000Z",
+        "coefficient": 3,
+        "levels": [
+          {
+            "name": "Adopter des stratégies et des procédures d’écriture efficaces.",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.1"
+            ]
+          },
+          {
+            "name": "Exploiter des lectures pour enrichir son écrit.",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.1"
+            ]
+          },
+          {
+            "name": "Maitriser la structure, le sens et l’orthographe des mots.",
+            "value": {
+              "short": "C",
+              "long": "Maîtrise fragile"
+            },
+            "prefixes": [
+              "D1.1",
+              "D2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HISTOIRE-GEOGRAPHIE",
+    "teacher": "Mme COURDOUAN P.",
+    "color": "#75B951",
+    "evaluations": [
+      {
+        "id": "ac3efdd2d6f12ffe",
+        "name": "evaluation dnb blanc",
+        "date": "2021-03-13T23:00:00.000Z",
+        "coefficient": 3,
+        "levels": [
+          {
+            "name": "Connaître",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.1",
+              "D1.3",
+              "D1.4",
+              "D2",
+              "D3",
+              "D4",
+              "D5"
+            ]
+          },
+          {
+            "name": "Se repérer dans le temps : construire des repères historiques",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.3",
+              "D2",
+              "D5"
+            ]
+          },
+          {
+            "name": "Se repérer dans l’espace : construire des repères géographiques",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.3",
+              "D2",
+              "D5"
+            ]
+          },
+          {
+            "name": "Analyser et comprendre un document",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.3",
+              "D2"
+            ]
+          },
+          {
+            "name": "Écrire pour construire sa pensée et son savoir, pour argumenter et écrire pour communiquer et échanger.",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1",
+              "D2",
+              "D5"
+            ]
+          },
+          {
+            "name": "S'investir",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1",
+              "D1.3",
+              "D1.4",
+              "D2",
+              "D3",
+              "D4",
+              "D5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5b5d19e6abad424e",
+        "name": "oral",
+        "date": "2021-03-13T23:00:00.000Z",
+        "coefficient": 3,
+        "levels": [
+          {
+            "name": "Connaître",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1",
+              "D1.3",
+              "D1.4",
+              "D2",
+              "D3",
+              "D4",
+              "D5"
+            ]
+          },
+          {
+            "name": "Se repérer dans le temps : construire des repères historiques",
+            "value": {
+              "short": "Ne",
+              "long": "Non évalué"
+            },
+            "prefixes": [
+              "D1.3",
+              "D2",
+              "D5"
+            ]
+          },
+          {
+            "name": "Se repérer dans l’espace : construire des repères géographiques",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.3",
+              "D2",
+              "D5"
+            ]
+          },
+          {
+            "name": "S’exprimer de façon maîtrisée en s’adressant à un auditoire.",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1",
+              "D2",
+              "D3"
+            ]
+          },
+          {
+            "name": "S'investir",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1",
+              "D1.3",
+              "D1.4",
+              "D2",
+              "D3",
+              "D4",
+              "D5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c4c8612e5526d53c",
+        "name": "Initiatives",
+        "date": "2021-02-20T23:00:00.000Z",
+        "coefficient": 3,
+        "levels": [
+          {
+            "name": "S'exprimer à l'oral",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MATHEMATIQUES",
+    "teacher": "M. SEKKAL B.",
+    "color": "#59BEBD",
+    "evaluations": [
+      {
+        "id": "fb188a2c04d0c8f7",
+        "name": "Brevet Blanc",
+        "date": "2021-03-28T22:00:00.000Z",
+        "coefficient": 3,
+        "levels": [
+          {
+            "name": "Représenter",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.3",
+              "D5"
+            ]
+          },
+          {
+            "name": "Raisonner",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D2",
+              "D3",
+              "D4"
+            ]
+          },
+          {
+            "name": "Communiquer",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1",
+              "D3"
+            ]
+          },
+          {
+            "name": "Modéliser",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.3",
+              "D2",
+              "D4"
+            ]
+          },
+          {
+            "name": "Chercher",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D2",
+              "D4"
+            ]
+          },
+          {
+            "name": "Communiquer",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.1",
+              "D3"
+            ]
+          },
+          {
+            "name": "Raisonner",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D2",
+              "D3",
+              "D4"
+            ]
+          },
+          {
+            "name": "Raisonner",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D2",
+              "D3",
+              "D4"
+            ]
+          },
+          {
+            "name": "Calculer",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D4"
+            ]
+          },
+          {
+            "name": "Calculer",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D4"
+            ]
+          },
+          {
+            "name": "Raisonner",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D2",
+              "D3",
+              "D4"
+            ]
+          },
+          {
+            "name": "Modéliser",
+            "value": {
+              "short": "C",
+              "long": "Maîtrise fragile"
+            },
+            "prefixes": [
+              "D1.3",
+              "D2",
+              "D4"
+            ]
+          },
+          {
+            "name": "Communiquer",
+            "value": {
+              "short": "C",
+              "long": "Maîtrise fragile"
+            },
+            "prefixes": [
+              "D1.1",
+              "D3"
+            ]
+          },
+          {
+            "name": "Calculer",
+            "value": {
+              "short": "C",
+              "long": "Maîtrise fragile"
+            },
+            "prefixes": [
+              "D4"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SCIENCES VIE & TERRE",
+    "teacher": "M. GOUIRAND F.",
+    "color": "#195A46",
+    "evaluations": [
+      {
+        "id": "b7379ca6a9bfe774",
+        "name": "Brevet blanc",
+        "date": "2021-03-08T23:00:00.000Z",
+        "coefficient": 3,
+        "levels": [
+          {
+            "name": "S'informer",
+            "value": {
+              "short": "A",
+              "long": "Maîtrise satisfaisante"
+            },
+            "prefixes": [
+              "D1.1",
+              "D1.3",
+              "D1.4",
+              "D2",
+              "D3",
+              "D4",
+              "D5"
+            ]
+          },
+          {
+            "name": "Pratiquer des langages",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.3",
+              "D4"
+            ]
+          },
+          {
+            "name": "Pratiquer des démarches scientifiques",
+            "value": {
+              "short": "A+",
+              "long": "Très bonne maîtrise"
+            },
+            "prefixes": [
+              "D1.3",
+              "D2",
+              "D4"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
