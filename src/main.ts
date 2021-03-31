@@ -33,8 +33,11 @@ class Evaluation
 class Moyenne
 {
 	name: string;
+	
 	total: number;
 	value: number;
+	coef: number;
+	
 	'A+': number;
 	'A': number;
 	'C': number;
@@ -42,12 +45,14 @@ class Moyenne
 	'Abs': number;
 	'Ne': number;
 	
-	constructor(name: string)
+	constructor(name: string, coef: number)
 	{
 		this.name = name;
 		
 		this.total = 0;
 		this.value = 0;
+		
+		this.coef = coef;
 		
 		this['A+'] = 0;
 		this['A'] = 0;
@@ -57,13 +62,13 @@ class Moyenne
 		this['Ne'] = 0;
 	}
 	
-	increment(value: evaluationShort, coef: number)
+	increment(value: evaluationShort)
 	{
 		if(value == 'Abs' || value == 'Ne') this[value]++;
 		else
 		{
-			this[value] += coef;
-			this.total += coef;
+			this[value]++;
+			this.total++;
 		}
 	}
 	
@@ -176,7 +181,7 @@ async function main()
 		{
 			let m: Map<string, Moyenne> = new Map();
 			
-			let areaM = new Moyenne(key);
+			let areaM = new Moyenne(key, area[0].coef);
 			
 			area.forEach(
 				e =>
@@ -186,13 +191,13 @@ async function main()
 					let _m: Moyenne;
 					
 					if(m.has(_date)) _m = m.get(_date);
-					else _m = new Moyenne(key);
+					else _m = new Moyenne(key, e.coef);
 					
 					e.levels.forEach(
 						l =>
 						{
-							_m.increment(l.short, e.coef);
-							areaM.increment(l.short, e.coef);
+							_m.increment(l.short);
+							areaM.increment(l.short);
 						}
 					);
 					
